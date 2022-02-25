@@ -16,8 +16,9 @@
   ```bash
   $ git clone https://github.com/imskr/boggle-api.git
   $ cd boggle-api
-  $ docker-compose run web rake db:create db:migrate
   $ docker-compose up
+  # on new terminal run (required only first time setup)
+  $ docker-compose run web rake db:create db:migrate
   ```
 
   - The server is up and running at `http://localhost:3000`
