@@ -4,5 +4,4 @@ Rails.application.routes.draw do
   put  '/games/:id'   => 'games#update'
   get  '/games/:id'   => 'games#show'
 
-  root to: "main#index"
 end
